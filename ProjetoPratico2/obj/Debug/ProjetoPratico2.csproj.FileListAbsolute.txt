@@ -1,0 +1,8 @@
+C:\Projetos\ProjetoPratico2\ProjetoPratico2\bin\Debug\ProjetoPratico2.exe.config
+C:\Projetos\ProjetoPratico2\ProjetoPratico2\bin\Debug\ProjetoPratico2.exe
+C:\Projetos\ProjetoPratico2\ProjetoPratico2\bin\Debug\ProjetoPratico2.pdb
+C:\Projetos\ProjetoPratico2\ProjetoPratico2\obj\Debug\ProjetoPratico2.csproj.AssemblyReference.cache
+C:\Projetos\ProjetoPratico2\ProjetoPratico2\obj\Debug\ProjetoPratico2.csproj.SuggestedBindingRedirects.cache
+C:\Projetos\ProjetoPratico2\ProjetoPratico2\obj\Debug\ProjetoPratico2.csproj.CoreCompileInputs.cache
+C:\Projetos\ProjetoPratico2\ProjetoPratico2\obj\Debug\ProjetoPratico2.exe
+C:\Projetos\ProjetoPratico2\ProjetoPratico2\obj\Debug\ProjetoPratico2.pdb
