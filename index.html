@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBookPost</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <script src="https://kit.fontawesome.com/2447eaddb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Barra de navegação-->
+    <nav> 
+        <div class="nav-left">
+                <img src="images/logo2.png" alt="logo" class="logo">
+                <ul>
+                    <li><img src="images/notification.png"></li>
+                    <li><img src="images/video.png"></li>
+                    <li><img src="images/inbox.png"></li>
+                </ul>
+        </div>
+        <div class="nav-right">
+
+                <div class="search-box">
+                    <img src="images/search.png">
+                    <input type="text" name="" id="" placeholder="Search">
+                </div>
+
+                <div class="nav-user-icon online" onclick="settingsMenuTogle()">
+                    <img src="images/ProfilePic.jpg">
+                </div>
+        </div>
+
+        <!--Opções menu-->
+        <div class="settings-menu">
+            
+            <!--Botão de mudãnça de cor-->
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <!--Botão de mudãnça de cor-->
+
+            <div class="setting-menu-inner">    
+                <div class="user-profile">
+                    <img src="images/ProfilePic.jpg" alt="">
+                    <div>  
+                        <p>Matheus Santos</p>
+                        <a href="#">Veja seu Perfil</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>  
+                        <p>Feedback</p>
+                        <a href="#">Nos ajude a melhorar nossa progressão</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Opções e privacidade <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Ajudas e Suporte<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display e acessibilidade<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Sair<img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+        <!--Opções menu-->
+
+    </nav>
+<!--Barra de navegação-->
+
+<!--Body Container principal-->
+    <div class="container">
+
+    <!--Parte esquerda do corpo-->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#"><img src="images/news.png">Feed</a>
+                    <a href="#"><img src="images/friends.png">Amigos</a>
+                    <a href="#"><img src="images/group.png">Grupos</a>
+                    <a href="#"><img src="images/marketplace.png">Lojas</a>
+                    <a href="#"><img src="images/watch.png">Watch</a>
+                    <a href="#">Ver mais</a>
+                </div>
+                <div class="shortcut-links">
+                    <p>Atalhos</p>
+                    <a href="https://www.linkedin.com/in/matheus-leonardo-santos-537814223/"><img src="images/shortcut-1.png">Linkedin</a>
+                    <a href="https://landing-page-azure-ten.vercel.app/Formul%C3%A1rio.html"><img src="images/shortcut-2.png">Formulários</a>
+                    <a href="https://landing-page-azure-ten.vercel.app/Contador%20de%20numeros/index.html"><img src="images/shortcut-3.png">Contador</a>
+                    <a href="https://landing-page-azure-ten.vercel.app/"><img src="images/shortcut-4.png">Web Site</a>
+                </div>
+            </div>
+    <!--Parte esquerda do corpo-->
+
+    <!--Corpo principal -->
+        <div class="main-content">
+
+        <!--Storys-->
+                    <div class="story-gallery">
+                            <div class="story story1">
+                                <img src="images/upload.png" alt="">
+                                <p>Postar story</p>
+                            </div>
+
+                            <div class="story story2">
+                                <img src="images/member-1.png" alt="">
+                                <p>Pollyanna</p>
+                            </div>
+
+                            <div class="story story3">
+                                <img src="images/member-2.png" alt="">
+                                <p>Thomas</p>
+                            </div>
+
+                            <div class="story story4">
+                                <img src="images/member-3.png" alt="">
+                                <p>Dayse</p>
+                            </div>
+
+                            <div class="story story5">
+                                <img src="images/member-4.png" alt="">
+                                <p>Otto</p>
+                            </div>
+                    </div>
+        <!--Storys-->
+
+
+        <!--Publicações-->
+                <form> 
+                    <div class="write-post-container">
+                                <div class="user-profile">
+                                    <img src="images/ProfilePic.jpg" alt="">
+                                    <div>  
+                                        <p>Matheus Santos</p>
+                                        <small>Public <i class="fas fa-caret-down"></i></small>
+                                    </div>
+                                </div>
+                            <div class="post-input-container">
+                                <textarea rows="3" placeholder="O que você está pensando, Matheus?" id="Publisher"></textarea>
+                                <div class="add-post-links">
+                                    <a href="#"><img src="images/live-video.png">Live Video</a>
+                                    <a href="#"><img src="images/photo.png">Fotos/Video</a>
+                                    <a href="#"><img src="images/feeling.png">O que você esta sentindo</a>
+                                    <button type="submit">POST</button>
+                                </div>
+                            </div>
+                    </div>
+                </form>
+                    
+                
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/ProfilePic.jpg" alt="">
+                                <div>  
+                                    <p>Matheus Santos</p>
+                                    <span class="clocks">20 de Janeiro 2023, 14:00</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                        <p class="post-text">Inscrevasse <span>@MLCSantos</span>para mais tutoriais
+                        <a href="#">#Dvelopment</a></p>
+                        <img src="images/feed-image-1.png" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">120</div>
+                                <div><img src="images/comments.png">45</div>
+                                <div><img src="images/search.png">100</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/ProfilePic.jpg"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <!-- 
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/ProfilePic.jpg" alt="">
+                                <div>  
+                                    <p>Matheus Santos</p>
+                                    <span class="clocks">20 de Janeiro 2023, 14:00</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                        <p class="post-text">Inscrevasse <span>@MLCSantos</span>Desenvolvedor
+                        <a href="#">#Dvelopment</a></p>
+                        <img src="images/feed-image-2.png" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">200</div>
+                                <div><img src="images/comments.png">23</div>
+                                <div><img src="images/search.png">10</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/ProfilePic.jpg"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/ProfilePic.jpg" alt="">
+                                <div>  
+                                    <p>Matheus Santos</p>
+                                    <span class="clocks">20 de Janeiro 2023, 14:00</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                        <p class="post-text">Inscrevasse <span>@MLCSantos</span>Desenvolvedor
+                        <a href="#">#Dvelopment</a></p>
+                        <img src="images/feed-image-3.png" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">200</div>
+                                <div><img src="images/comments.png">23</div>
+                                <div><img src="images/search.png">10</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/ProfilePic.jpg"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/ProfilePic.jpg" alt="">
+                                <div>  
+                                    <p>Matheus Santos</p>
+                                    <span class="clocks">20 de Janeiro 2023, 14:00</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                        <p class="post-text">Inscrevasse <span>@MLCSantos</span>Desenvolvedor
+                        <a href="#">#Dvelopment</a></p>
+                        <img src="images/feed-image-4.png" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">200</div>
+                                <div><img src="images/comments.png">23</div>
+                                <div><img src="images/search.png">10</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/ProfilePic.jpg"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/ProfilePic.jpg" alt="">
+                                <div>  
+                                    <p>Matheus Santos</p>
+                                    <span class="clocks">20 de Janeiro 2023, 14:00</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+
+                        <p class="post-text">Inscrevasse <span>@MLCSantos</span>Desenvolvedor
+                        <a href="#">#Dvelopment</a></p>
+                        <img src="images/feed-image-5.png" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">200</div>
+                                <div><img src="images/comments.png">23</div>
+                                <div><img src="images/search.png">10</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/ProfilePic.jpg"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div> -->
+
+            <button type="button" class="load-more-btn">Mostrar mais</button>
+
+        <!--Publicações-->
+        </div>
+    <!--Corpo principal -->
+
+    <!--Parte da direita do corpo-->
+            <div class="right-sidebar">
+
+                <div class="sidebar-title">
+                    <h4>Eventos</h4>
+                    <a href="#">Ver tudo</a>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>25</h3>
+                        <span>Janeiro</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>3 Etapa processo</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>Laura</p>
+                        <a href="https://www.google.com.br/maps/preview">Mais informações</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>02</h3>
+                        <span>Fevereiro</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Volta as aulas</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>Cotemig</p>
+                        <a href="https://www.cotemig.com.br/">Mais informações</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-title">
+                    <h4>Propagandas</h4>
+                    <a href="#">Fechar</a>
+                </div>
+                <a href="https://www.meta3group.com.br/facaParte" ><img src="images/advertisement.png" class="sidebar-ads"></a>
+                
+                <div class="sidebar-title">
+                    <h4>Conversas</h4>
+                    <a href="#">Chat</a>
+                </div>
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-1.png">
+                    </div>
+                    <p>Pollyanna Polles</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-2.png">
+                    </div>
+                    <p>Thomas Santos</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-3.png">
+                    </div>
+                    <p>Dayse Santos</p>
+                </div>
+            </div>
+    </div>
+    <!--Parte da direita do corpo-->
+    <div class="footer">
+        <p>@Copyright2021 - MLCSantos</p>
+    </div>
+<!--Body Container principal-->
+
+<script src="script.js"></script>
+
+</body>
+</html>
