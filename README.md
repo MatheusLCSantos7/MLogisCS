@@ -27,7 +27,7 @@ As técnicas e tecnologias utilizadas pra isso são:
 - `RecyclerView`: listagem das produtos
 - `ID user`: listagem das produtos
 - `Business Intelligence`: apresentação clara dados das vendas e estoques
-- 
+
 <h2 align="center">🛠️ Abrir e rodar o projeto</h2>
 Após baixar o projeto, você pode abrir com o Visual Studio. Para isso, na tela de launcher clique em:
 
