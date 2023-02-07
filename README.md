@@ -13,7 +13,7 @@
 </h1>
 
 <h2 align="center">🔨 Funcionalidades do projeto</h2>
-O projeto de console MLogisCS é um sistema votlado para área de logística, dentre suas funcionalidades estão :
+O projeto de console MLogisCS é um sistema voltado para área de logística, dentre suas funcionalidades estão :
 
  - 🔨&nbsp;&nbsp; Realizar cadastramento de produtos.
  - 🔨&nbsp;&nbsp; Realizar vendas dos produtos disponíveis.
