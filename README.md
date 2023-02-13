@@ -8,8 +8,8 @@
 </h4>
 
 <h1 align="center">
-  <p align="center">MLogisCS</p>
-  <a href="https://docusaurus.io"><img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus"></a>
+
+  ![MLOGISTCSLogo](https://user-images.githubusercontent.com/93961602/218508693-eac89900-5f20-4e5b-818c-788e39b63117.png)
 </h1>
 O MLogistCS é um software de gestão de logística automatiza a gestão das operações de entrega e estoque, aumentando a eficiência, precisão e satisfação do cliente. Reduz custos logísticos e fornece visibilidade atualizada para os funcionários, facilitando a tomada de decisões e solução de problemas. Em resumo, é uma ferramenta importante para melhorar a eficiência operacional e a satisfação do cliente pelo seu efeito na agilidade dos processos internos da empresa.
 <h2 align="center">🔨 Funcionalidades do projeto</h2>
